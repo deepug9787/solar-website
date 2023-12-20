@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Solar</title>
+        <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="assets/main.css" media="screen" />
+        <script src="assets/main.js" defer></script>
+    </head>
+
+    <body class="page">
+        <header class="site-header contained">
+            <a href="#hero" class="skip-link">Skip to main content</a>
+
+            <a href="index.html" class="logo">
+                <img src="assets/img/logo.png" alt="Logo" />
+                <span>Solar</span>
+            </a>
+
+            <button aria-expanded="false" aria-label="menu" class="menu-btn hamburger-menu-btn">
+                &#9776;
+            </button>
+
+            <nav class="site-nav site-header__nav">
+                <button aria-label="close menu" class="menu-btn close-menu-btn">&#215;</button>
+
+                <ul class="menu site-header__menu">
+                    <li>
+                        <a href="index.html" class="menu__item">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="menu__item">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="menu__item">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="menu__item">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 class="visually-hidden">Solar - Home page</h1>
+
+        <section class="hero contained" id="hero">
+            <div class="hero__text">
+                <h2 class="hero__title">Solar Panel Installation &amp; Maintenance</h2>
+                <p class="hero__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod accusantium alias
+                    aut asperiores aperiam tempore exercitationem corrupti quis voluptatem.
+                </p>
+                <a href="contact.html#contact-form-wrapper" class="link link--primary hero__link">
+                    <span>Get a free quote </span>
+                    <img src="assets/img/icons/right-arrow-light.png" alt="right arrow" />
+                </a>
+            </div>
+
+            <picture>
+                <source srcset="assets/img/hero/hero-small.webp" media="(max-width: 500px)" />
+                <img src="assets/img/hero/hero-medium.webp" class="hero__img" alt="" />
+            </picture>
+        </section>
+
+        <section class="about-intro contained region">
+            <h2 class="visually-hidden">About</h2>
+
+            <span class="about-intro__title">
+                Residential &amp; commercial solar panel installation
+            </span>
+
+            <p class="about-intro__description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor assumenda quia ea
+                alias! Atque, suscipit. Vitae velit facere similique dicta neque nam perspiciatis,
+                tenetur cupiditate quas voluptatibus modi quibusdam sint.
+            </p>
+
+            <a href="about.html" class="link link--primary about-intro__link">
+                <span>Learn more about us</span>
+                <img src="assets/img/icons/right-arrow-light.png" alt="right arrow" />
+            </a>
+        </section>
+
+        <section class="services-intro contained region">
+            <h2 class="region__title">Services</h2>
+
+            <div class="grid-wrapper services-intro__grid-wrapper">
+                <section class="card">
+                    <div class="card__text">
+                        <h3>Residential</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nihil,
+                            doloremque labore eius dolores illum?
+                        </p>
+
+                        <a href="services.html" class="link link--secondary">
+                            <span>Learn More</span>
+                            <img src="assets/img/icons/right-arrow-dark.png" alt="right arrow" />
+                        </a>
+                    </div>
+
+                    <picture>
+                        <source
+                            srcset="assets/img/residential/residential-large.webp"
+                            media="(min-width: 1000px)"
+                        />
+                        <source
+                            srcset="assets/img/residential/residential-medium.webp"
+                            media="(min-width: 500px)"
+                        />
+                        <img
+                            class="card__img"
+                            src="assets/img/residential/residential-small.webp"
+                            alt="A home with solar panels installed on rooftop"
+                        />
+                    </picture>
+                </section>
+
+                <section class="card">
+                    <div class="card__text">
+                        <h3>Commercial</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nihil,
+                            doloremque labore eius dolores illum?
+                        </p>
+
+                        <a href="services.html" class="link link--secondary">
+                            <span>Learn More</span>
+                            <img src="assets/img/icons/right-arrow-dark.png" alt="right arrow" />
+                        </a>
+                    </div>
+
+                    <picture>
+                        <source
+                            srcset="assets/img/commercial/commercial-large.webp"
+                            media="(min-width: 1000px)"
+                        />
+                        <source
+                            srcset="assets/img/commercial/commercial-medium.webp"
+                            media="(min-width: 500px)"
+                        />
+                        <img
+                            class="card__img"
+                            src="assets/img/commercial/commercial-small.webp"
+                            alt="An large array of solar panels installed on an open field"
+                        />
+                    </picture>
+                </section>
+
+                <section class="card">
+                    <div class="card__text">
+                        <h3>Maintenance</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nihil,
+                            doloremque labore eius dolores illum?
+                        </p>
+
+                        <a href="services.html" class="link link--secondary">
+                            <span>Learn More</span>
+                            <img src="assets/img/icons/right-arrow-dark.png" alt="right arrow" />
+                        </a>
+                    </div>
+
+                    <picture>
+                        <source
+                            srcset="assets/img/maintenance/maintenance-large.webp"
+                            media="(min-width: 1000px)"
+                        />
+                        <source
+                            srcset="assets/img/maintenance/maintenance-medium.webp"
+                            media="(min-width: 500px)"
+                        />
+                        <img
+                            class="card__img"
+                            src="assets/img/maintenance/maintenance-small.webp"
+                            alt="A technician repairing a solar panel"
+                        />
+                    </picture>
+                </section>
+            </div>
+        </section>
+
+        <section class="why-choose-us region">
+            <div class="contained">
+                <h2 class="region__title why-choose-us__title">Why Choose Us</h2>
+
+                <div class="grid-wrapper why-choose-us__grid-wrapper">
+                    <section class="reasons-item">
+                        <div class="reasons-item__text">
+                            <h3 class="reasons-item__title">Customer Support</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                nihil, doloremque labore eius dolores illum?
+                            </p>
+                        </div>
+                        <img
+                            src="assets/img/icons/customer-support-icon.png"
+                            class="reasons-item__img"
+                            alt="Customer support icon"
+                        />
+                    </section>
+
+                    <section class="reasons-item">
+                        <div class="reasons-item__text">
+                            <h3 class="reasons-item__title">Experienced Technicians</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                nihil, doloremque labore eius dolores illum?
+                            </p>
+                        </div>
+                        <img
+                            src="assets/img/icons/tools-icon.png"
+                            class="reasons-item__img"
+                            alt="Tools icon"
+                        />
+                    </section>
+
+                    <section class="reasons-item">
+                        <div class="reasons-item__text">
+                            <h3 class="reasons-item__title">Quick Installation</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                nihil, doloremque labore eius dolores illum?
+                            </p>
+                        </div>
+                        <img
+                            src="assets/img/icons/quick-installation-icon.png"
+                            class="reasons-item__img"
+                            alt="A clock icon"
+                        />
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing contained region">
+            <h2 class="region__title">Pricing</h2>
+
+            <div class="grid-wrapper pricing__grid-wrapper">
+                <div class="package">
+                    <h3 class="package__type">Basic</h3>
+
+                    <div class="package__body">
+                        <span class="package__price">$500</span>
+                        <p class="package__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, vero.
+                        </p>
+                        <ul class="package__features">
+                            <li>Feature one</li>
+                            <li>Feature two</li>
+                            <li class="package__missing-feature">Feature three</li>
+                            <li class="package__missing-feature">Feature four</li>
+                            <li class="package__missing-feature">Feature five</li>
+                            <li class="package__missing-feature">Feature six</li>
+                        </ul>
+
+                        <a href="contact.html" class="link link--secondary">
+                            <span>Choose Plan</span>
+                            <img src="assets/img/icons/right-arrow-dark.png" alt="right arrow" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="package package--most-popular">
+                    <h3 class="package__type">Most Popular</h3>
+
+                    <div class="package__body">
+                        <span class="package__price">$750</span>
+                        <p class="package__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, vero.
+                        </p>
+                        <ul class="package__features">
+                            <li>Feature one</li>
+                            <li>Feature two</li>
+                            <li>Feature three</li>
+                            <li>Feature four</li>
+                            <li class="package__missing-feature">Feature five</li>
+                            <li class="package__missing-feature">Feature six</li>
+                        </ul>
+                        <a href="contact.html" class="link link--primary">
+                            <span>Choose Plan</span>
+                            <img src="assets/img/icons/right-arrow-light.png" alt="right arrow" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="package">
+                    <h3 class="package__type">Premium</h3>
+
+                    <div class="package__body">
+                        <span class="package__price">$900</span>
+                        <p class="package__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, vero.
+                        </p>
+                        <ul class="package__features">
+                            <li>Feature one</li>
+                            <li>Feature two</li>
+                            <li>Feature three</li>
+                            <li>Feature four</li>
+                            <li>Feature five</li>
+                            <li>Feature six</li>
+                        </ul>
+                        <a href="contact.html" class="link link--secondary">
+                            <span>Choose Plan</span>
+                            <img src="assets/img/icons/right-arrow-dark.png" alt="right arrow" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-intro contained region">
+            <h2 class="region__title">Blog</h2>
+
+            <div class="grid-wrapper blog-intro__grid-wrapper">
+                <section class="card">
+                    <div class="card__text">
+                        <h3>Tips for choosing the right solar system for your home</h3>
+
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem nisi
+                            in, minima error id sed placeat fuga enim cum accusamus aut quod, modi
+                            corporis voluptate.
+                        </p>
+
+                        <a class="link link--secondary">
+                            <span>Learn More</span>
+                            <img src="assets/img/icons/right-arrow-dark.png" alt="right arrow" />
+                        </a>
+                    </div>
+
+                    <picture>
+                        <source
+                            srcset="assets/img/blog/post1/featured-large.webp"
+                            media="(min-width: 1000px)"
+                        />
+                        <source
+                            srcset="assets/img/blog/post1/featured-medium.webp"
+                            media="(min-width: 500px)"
+                        />
+                        <img
+                            class="card__img"
+                            src="assets/img/blog/post1/featured-small.webp"
+                            alt="A home with solar panels installed on rooftop"
+                        />
+                    </picture>
+                </section>
+
+                <section class="card">
+                    <div class="card__text">
+                        <h3>Difference between Off-Grid and On-Grid explained</h3>
+
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem nisi
+                            in, minima error id sed placeat fuga enim cum accusamus aut quod, modi
+                            corporis voluptate.
+                        </p>
+
+                        <a class="link link--secondary">
+                            <span>Learn More</span>
+                            <img src="assets/img/icons/right-arrow-dark.png" alt="right arrow" />
+                        </a>
+                    </div>
+                    <picture>
+                        <source
+                            srcset="assets/img/blog/post2/featured-large.webp"
+                            media="(min-width: 1000px)"
+                        />
+                        <source
+                            srcset="assets/img/blog/post2/featured-medium.webp"
+                            media="(min-width: 500px)"
+                        />
+                        <img
+                            class="card__img"
+                            src="assets/img/blog/post2/featured-small.webp"
+                            alt="Solar panels installed on the terrace of a building"
+                        />
+                    </picture>
+                </section>
+
+                <section class="card">
+                    <div class="card__text">
+                        <h3>How installing solar panel can benefit your home or business</h3>
+
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem nisi
+                            in, minima error id sed placeat fuga enim cum accusamus aut quod, modi
+                            corporis voluptate.
+                        </p>
+
+                        <a class="link link--secondary">
+                            <span>Learn More</span>
+                            <img src="assets/img/icons/right-arrow-dark.png" alt="right arrow" />
+                        </a>
+                    </div>
+
+                    <picture>
+                        <source
+                            srcset="assets/img/blog/post3/featured-large.webp"
+                            media="(min-width: 1000px)"
+                        />
+                        <source
+                            srcset="assets/img/blog/post3/featured-medium.webp"
+                            media="(min-width: 500px)"
+                        />
+                        <img
+                            class="card__img"
+                            src="assets/img/blog/post3/featured-small.webp"
+                            alt="A man placing a solar panel onto the roof of a building"
+                        />
+                    </picture>
+                </section>
+            </div>
+        </section>
+
+        <div class="cta">
+            <div class="flex-wrapper cta__flex-wrapper contained">
+                <div class="cta__text">
+                    <span class="cta__title">
+                        Get a free quote for solar panel installation.
+                    </span>
+                    <span class="cta__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, amet?
+                    </span>
+                </div>
+
+                <a
+                    href="contact.html#contact-form-wrapper"
+                    class="link link--primary cta__link--primary"
+                >
+                    <span>Get a free quote </span>
+                    <img src="assets/img/icons/right-arrow-dark.png" alt="right arrow" />
+                </a>
+            </div>
+        </div>
+
+        <footer class="site-footer">
+            <div class="grid-wrapper site-footer__grid-wrapper contained">
+                <section class="site-footer__about">
+                    <h2 class="site-footer__title">About</h2>
+                    <p class="site-footer__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore autem
+                        molestiae accusamus dolor, fugit eaque nihil soluta maiores iste possimus
+                        facere placeat, dicta repellat ducimus doloremque inventore alias
+                        exercitationem iusto.
+                    </p>
+                </section>
+
+                <section class="site-footer__services">
+                    <h2 class="site-footer__title">Services</h2>
+                    <ul class="list site-footer__services-list">
+                        <li>Residential Solar</li>
+                        <li>Commercial Solar</li>
+                        <li>Off-Grid Solution</li>
+                        <li>On-Grid Soution</li>
+                    </ul>
+                </section>
+
+                <section class="site-footer__links">
+                    <h2 class="site-footer__title">Links</h2>
+
+                    <nav class="site-nav site-footer__nav">
+                        <ul class="menu site-footer__menu">
+                            <li>
+                                <a href="index.html" class="menu__item site-footer__menu-item"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a href="about.html" class="menu__item site-footer__menu-item"
+                                    >About</a
+                                >
+                            </li>
+                            <li>
+                                <a href="services.html" class="menu__item site-footer__menu-item"
+                                    >Services</a
+                                >
+                            </li>
+                            <li>
+                                <a href="contact.html" class="menu__item site-footer__menu-item"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+
+            <span class="copyright contained">
+                Copyright &copy; 2023 Solar. All Rights Reserved.
+            </span>
+        </footer>
+
+        <div class="menu-overlay"></div>
+    </body>
+</html>
