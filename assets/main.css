@@ -694,14 +694,18 @@ header {
 
     .hero {
         background-image: none;
-        /* background-color: var(--light-bg-color); */
+        background-color: var(--light-bg-color);
         min-height: auto;
+    }
+
+    .hero.contained {
+        width: 100%;
     }
 
     .hero__text {
         padding-top: 5rem;
         padding-bottom: 5rem;
-        max-width: 100%;
+        max-width: 90%;
         text-align: left;
     }
 
@@ -712,11 +716,6 @@ header {
 
     .hero__description {
         font-size: 1rem;
-        max-width: 100%;
-    }
-
-    .hero__img {
-        display: block;
         max-width: 100%;
     }
 
