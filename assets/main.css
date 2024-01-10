@@ -4,9 +4,7 @@
     --light-bg-color: #fff3f3;
     --text-color: #333;
 
-    font:
-        400 1rem/1.7 "Montserrat",
-        sans-serif;
+    font: 400 1rem/1.7 "Montserrat", sans-serif;
     color: var(--text-color);
     margin: 0;
 }
@@ -390,7 +388,6 @@ header {
 .package__missing-feature {
     text-decoration-line: line-through;
     text-decoration-thickness: 0.1rem;
-    opacity: 0.5;
 }
 
 /* Blog */
