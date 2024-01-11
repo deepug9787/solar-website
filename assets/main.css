@@ -225,8 +225,8 @@ header {
 }
 
 .menu__item {
-    color: var(--text-color);
-    text-decoration: none;
+    color: var(--primary-color);
+    text-underline-position: under;
 }
 
 .menu-overlay.show {
@@ -242,16 +242,11 @@ header {
 }
 
 /* Hero */
-.hero {
-    background-image: url("img/hero/hero-large.webp");
-    min-height: 820px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 .hero__text {
     text-align: center;
-    padding-top: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     max-width: 90%;
     margin: 0 auto;
 }
@@ -693,9 +688,7 @@ header {
     }
 
     .hero {
-        background-image: none;
         background-color: var(--light-bg-color);
-        min-height: auto;
     }
 
     .hero.contained {
