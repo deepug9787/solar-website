@@ -687,17 +687,11 @@ header {
         text-underline-position: under;
     }
 
-    .hero {
-        background-color: var(--light-bg-color);
-    }
-
     .hero.contained {
         width: 100%;
     }
 
     .hero__text {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
         max-width: 90%;
         text-align: left;
     }
