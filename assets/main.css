@@ -144,7 +144,8 @@ h3 {
 }
 
 .card__img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     order: -1;
 }
 
@@ -551,7 +552,8 @@ header {
 }
 
 .service-item__img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .service-item__title {
