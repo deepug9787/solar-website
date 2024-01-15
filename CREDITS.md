@@ -30,6 +30,8 @@ https://uxwing.com/envelope-open-icon/
 
 https://uxwing.com/tools-icon/
 
+https://uxwing.com/chart-icon/
+
 # Images
 
 https://unsplash.com/photos/brown-and-white-concrete-house-mIlvCv21W1s

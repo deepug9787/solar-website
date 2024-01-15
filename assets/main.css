@@ -367,7 +367,7 @@ header {
 }
 
 .package__features {
-    list-style-image: url("img/icons/checkmark-dark.png");
+    list-style-image: url("img/icons/svg/checkmark-dark.svg");
     list-style-position: inside;
     padding-left: 0;
 }
@@ -377,7 +377,7 @@ header {
 }
 
 .package--most-popular .package__features {
-    list-style-image: url("img/icons/checkmark.png");
+    list-style-image: url("img/icons/svg/checkmark.svg");
 }
 
 .package__missing-feature {
@@ -547,7 +547,7 @@ header {
 }
 
 .service-item__list {
-    list-style-image: url("img/icons/checkmark.png");
+    list-style-image: url("img/icons/svg/checkmark.svg");
 }
 
 .service-item__img {
