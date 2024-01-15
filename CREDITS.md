@@ -32,6 +32,10 @@ https://uxwing.com/tools-icon/
 
 https://uxwing.com/chart-icon/
 
+https://uxwing.com/three-horizontal-lines-icon/
+
+https://uxwing.com/close-line-icon/
+
 # Images
 
 https://unsplash.com/photos/brown-and-white-concrete-house-mIlvCv21W1s
