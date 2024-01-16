@@ -488,6 +488,10 @@ header {
     gap: 3rem;
 }
 
+.team-member__title {
+    margin-bottom: 0.2rem;
+}
+
 /* About - Testimonials */
 .testimonial__grid-wrapper {
     grid-template-columns: repeat(3, 1fr);
